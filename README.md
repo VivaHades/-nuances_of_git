@@ -6,20 +6,52 @@ This repo is built step by step to learn main commands of Git and GitFlow.
 
 ## Commands list
 
-1. Initialize Git repository
-```
+1. Shows info about *command*
+
+    git *command* -help
+
+
+2. Initializes Git repository
+
     git init
-```
-2. Watch repository status
-```
+
+3. Shows repository status
+
     git status
-```
+
 useful flags:
-```
-    --short
-```
-  - returns short description
 
-3. Add changes to Repository (new, modified and deleted)
+*--short* - returns short status description
 
+4. Adds files changes to repository (new, modified and deleted)
+
+    git add file_name
+
+useful flags:
+
+*--add* or *-A* - adds changes of all files
+
+5. Commits changes
+
+    git commit -m "commit message"
+
+This command must be **ALWAYS** used with *-m* flag and short, descriptive message about added changes (Answer these questions when commiting: what was added? What was fixed?).
+
+6. Shows history of commits for repository
+
+    git log
+
+7. Creates new branch with *branch-name* in repository
+
+    git branch *branch-name*
+
+8. Shows all branches
+
+    git branch
+
+Current branch tagged with (*)
+
+9. Switches branch to *branch-name*
+
+    git checkout *branch-name*
 
