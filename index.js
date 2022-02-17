@@ -1,1 +1,3 @@
-let return;
+let returnOne = 1;
+
+console.log(returnOne);
