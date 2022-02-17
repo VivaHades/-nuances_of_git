@@ -55,3 +55,17 @@ Current branch tagged with (*)
 
     git checkout *branch-name*
 
+useful flags:
+
+*-b* - allows to create a branch and switch to this one instantly
+
+Example:
+
+    git checkout -b *dev*
+
+will create and switch to branch *dev*
+
+
+
+
+
