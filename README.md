@@ -90,6 +90,8 @@ Where *URL* - URL of remote repository of github, gitlab or something else.
 
 `git push -u origin *branch-name*`
 
-15. Pulls changes from remote  repository
+15. Pulls changes from remote repository
 
 `git pull origin *branch-name*`
+
+## GitFlow
