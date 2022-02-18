@@ -50,9 +50,14 @@ This command must be **ALWAYS** used with *-m* flag and short, descriptive messa
 
 Current branch tagged with (*)
 
+useful flags:
+
+-a - shows all local and remote branches
+
 9. Deletes branch with *branch-name*
 
 `git branch -d *branch-name*`
+
 10. Renames branch
 
 `git branch --move bad-branch-name correct-branch-name`
@@ -85,6 +90,8 @@ Where *URL* - URL of remote repository of github, gitlab or something else.
 
 `git push -u origin *branch-name*`
 
-15. Pulls changes from remote  repository
+15. Pulls changes from remote repository
 
-`git pull origin`
+`git pull origin *branch-name*`
+
+## GitFlow
