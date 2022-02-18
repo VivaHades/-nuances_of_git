@@ -7,17 +7,16 @@ This repo is built step by step to learn Git and GitFlow.
 ## Commands list
 
 1. Shows info about *command*
-```
-    git *command* -help
-```
+
+`git *command* -help`
 
 2. Initializes Git repository
 
-    git init
+`git init`
 
 3. Shows repository status
 
-    git status
+`git status`
 
 useful flags:
 
@@ -25,7 +24,7 @@ useful flags:
 
 4. Adds files changes to repository (new, modified and deleted)
 
-    git add file_name
+`git add file_name`
 
 useful flags:
 
@@ -33,32 +32,34 @@ useful flags:
 
 5. Commits changes
 
-    git commit -m "commit message"
+`git commit -m "commit message"`
 
 This command must be **ALWAYS** used with *-m* flag and short, descriptive message about added changes (Answer these questions when commiting: what was added? What was fixed?).
 
 6. Shows history of commits for repository
 
-    git log
+`git log`
 
 7. Creates new branch with *branch-name* in repository
 
-    git branch *branch-name*
+`git branch *branch-name*`
 
 8. Shows all branches
 
-    git branch
+`git branch`
 
 Current branch tagged with (*)
 
 9. Deletes branch with *branch-name*
 
-    git branch -d *branch-name*
+`git branch -d *branch-name*`
+10. Renames branch
 
+`git branch --move bad-branch-name correct-branch-name`
 
-10. Switches branch to *branch-name*
+11. Switches branch to *branch-name*
 
-    git checkout *branch-name*
+`git checkout *branch-name*`
 
 useful flags:
 
@@ -66,21 +67,21 @@ useful flags:
 
 Example:
 
-    git checkout -b *dev*
+`git checkout -b *dev*`
 
 will create and switch to branch *dev*
 
-11. Merges current branch with *branch-name*
-```
-    git merge *branch-name*
-```
+12. Merges current branch with *branch-name*
 
-12. Adds remote repository to local repository
+`git merge *branch-name*`
 
-    git remote add origin URL
+13. Adds remote repository to local repository
 
-Where URL - URL of remote repository of github, gitlab or something else.
+`git remote add origin *URL*`
 
+Where *URL* - URL of remote repository of github, gitlab or something else.
 
+14. Pushes *branch-name* to the origin url and set it as the default remote branch
 
+`git push -u origin *branch-name*`
 
