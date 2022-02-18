@@ -95,3 +95,12 @@ Where *URL* - URL of remote repository of github, gitlab or something else.
 `git pull origin *branch-name*`
 
 ## GitFlow
+
+The GitHub flow works like this:
+
+- Create a new Branch
+- Make changes and add Commits
+- Open a Pull Request
+- Review
+- Deploy
+- Merge
