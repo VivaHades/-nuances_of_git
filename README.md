@@ -1,8 +1,8 @@
-# naunces_of_git
-Naunces of git repo for Git learning.
+# nuances_of_git
+Nuances of git repo for Git learning.
 This is an educational repository for Git.
 
-This repo is built step by step to learn main commands of Git and GitFlow.
+This repo is built step by step to learn Git and GitFlow.
 
 ## Commands list
 
@@ -51,7 +51,12 @@ This command must be **ALWAYS** used with *-m* flag and short, descriptive messa
 
 Current branch tagged with (*)
 
-9. Switches branch to *branch-name*
+9. Deletes branch with *branch-name*
+
+    git branch -d *branch-name*
+
+
+10. Switches branch to *branch-name*
 
     git checkout *branch-name*
 
@@ -65,6 +70,16 @@ Example:
 
 will create and switch to branch *dev*
 
+11. Merges current branch with *branch-name*
+
+    git merge *branch-name*
+
+
+12. Adds remote repository to local repository
+
+    git remote add origin URL
+
+Where URL - URL of remote repository of github, gitlab or something else.
 
 
 
