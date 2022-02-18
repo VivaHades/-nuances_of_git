@@ -53,6 +53,7 @@ Current branch tagged with (*)
 9. Deletes branch with *branch-name*
 
 `git branch -d *branch-name*`
+
 10. Renames branch
 
 `git branch --move bad-branch-name correct-branch-name`
