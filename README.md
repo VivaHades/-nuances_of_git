@@ -7,9 +7,9 @@ This repo is built step by step to learn Git and GitFlow.
 ## Commands list
 
 1. Shows info about *command*
-
+```
     git *command* -help
-
+```
 
 2. Initializes Git repository
 
@@ -71,9 +71,9 @@ Example:
 will create and switch to branch *dev*
 
 11. Merges current branch with *branch-name*
-
+```
     git merge *branch-name*
-
+```
 
 12. Adds remote repository to local repository
 
