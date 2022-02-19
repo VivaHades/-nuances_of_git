@@ -51,6 +51,7 @@ Current branch tagged with (*)
 useful flags:
 
 *-a* - shows all local and remote branches
+
 *-r* - shows all remote branches
 
 9. Deletes branch with *branch-name*
