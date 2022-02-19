@@ -1,8 +1,6 @@
-# nuances_of_git
-Nuances of git repo for Git learning.
-This is an educational repository for Git.
+# Nuances of git
 
-This repo is built step by step to learn Git and GitFlow.
+'Nuances of git' repository created to learn Git and GitFlow.
 
 ## Commands list
 
