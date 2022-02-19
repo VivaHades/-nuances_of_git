@@ -94,6 +94,10 @@ Where *URL* - URL of remote repository of github, gitlab or something else.
 
 `git pull origin *branch-name*`
 
+
+16. Deletes remote branch with *branch-name*
+
+`git push origin --delete *branch-name*`
 ## GitFlow
 
 The GitHub flow works like this:
